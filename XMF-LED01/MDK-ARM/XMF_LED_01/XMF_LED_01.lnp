@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+"xmf_led_01\startup_stm32f429xx.o"
+"xmf_led_01\main.o"
+"xmf_led_01\gpio.o"
+"xmf_led_01\stm32f4xx_it.o"
+"xmf_led_01\stm32f4xx_hal_msp.o"
+"xmf_led_01\stm32f4xx_hal_tim.o"
+"xmf_led_01\stm32f4xx_hal_tim_ex.o"
+"xmf_led_01\stm32f4xx_hal_rcc.o"
+"xmf_led_01\stm32f4xx_hal_rcc_ex.o"
+"xmf_led_01\stm32f4xx_hal_flash.o"
+"xmf_led_01\stm32f4xx_hal_flash_ex.o"
+"xmf_led_01\stm32f4xx_hal_flash_ramfunc.o"
+"xmf_led_01\stm32f4xx_hal_gpio.o"
+"xmf_led_01\stm32f4xx_hal_dma_ex.o"
+"xmf_led_01\stm32f4xx_hal_dma.o"
+"xmf_led_01\stm32f4xx_hal_pwr.o"
+"xmf_led_01\stm32f4xx_hal_pwr_ex.o"
+"xmf_led_01\stm32f4xx_hal_cortex.o"
+"xmf_led_01\stm32f4xx_hal.o"
+"xmf_led_01\stm32f4xx_hal_exti.o"
+"xmf_led_01\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "XMF_LED_01\XMF_LED_01.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "XMF_LED_01.map" -o XMF_LED_01\XMF_LED_01.axf
