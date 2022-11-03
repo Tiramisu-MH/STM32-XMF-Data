@@ -224,7 +224,7 @@ STM32 芯片有 16 个外部中断源 EXTI0~EXTI15，分别对应这 7 个中断
 
 EXTI0 的连接引脚是：PA0~PG0，即每个端口组的 0 号引脚。以此类推。
 
-<img src="C:\Users\Obliviate\AppData\Roaming\Typora\typora-user-images\image-20221021112657259.png" alt="image-20221021112657259" style="zoom:50%;" />
+<img src="https://storybeginswhenicu.oss-cn-hangzhou.aliyuncs.com/img/image-20221021112657259.png" alt="image-20221021112657259" style="zoom:50%;" />
 
 外部中断触发条件：上升沿触发、下降沿触发或双边沿触发。注意：不能配置成高电平触发和低电平触发。
 
@@ -319,7 +319,7 @@ STM32 的通用定时器是一个通过可编程预分频器（Prescaler）驱�
 
 【例】时钟信号 1KHz，Prescaler 为 9，Counter Period 为 999，定时时间？
 
-<img src="C:\Users\Obliviate\AppData\Roaming\Typora\typora-user-images\image-20221024105011992.png" alt="image-20221024105011992" style="zoom:50%;" />
+<img src="https://storybeginswhenicu.oss-cn-hangzhou.aliyuncs.com/img/image-20221024105011992.png" alt="image-20221024105011992" style="zoom:50%;" />
 
 ##### STM32CubeMX 中关于 TIM 的配置
 
@@ -688,7 +688,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
 ##### 数字系统基本结构
 
-<img src="C:\Users\Obliviate\AppData\Roaming\Typora\typora-user-images\image-20221025105706894.png" alt="image-20221025105706894" style="zoom:50%;" />
+<img src="https://storybeginswhenicu.oss-cn-hangzhou.aliyuncs.com/img/image-20221025105706894.png" alt="image-20221025105706894" style="zoom:50%;" />
 
 【例】一个恒温锅炉的基本结构：
 
